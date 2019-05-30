@@ -1,0 +1,149 @@
+/*--------- Global ---------*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  }
+  
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+html {
+  font-family: circular std,san-serif;
+  font-weight: 100;
+  }
+body {
+  width:100%;
+  margin: auto;
+  background-image: url("finback.png");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+h1 {
+  font-size: 50px;
+  font-weight:500;
+  color: #17191A;
+  margin-left: 520px;
+  color: #fff; 
+  
+  }
+h2 {
+  font-size: 35px;
+  font-weight:500;
+  color: #17191A;
+  margin-left: 520px;
+  color: #fff;
+  }
+h5 {
+  font-size: 40px;
+  margin-top:400;
+  color: #17191A;
+  }
+p {
+  color: #8F9EAS;
+  opacity: 0.8;
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-left: 500px;
+  }
+
+
+/*---------- Nav --------*/
+.nav {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  }
+
+.text {
+  height: 65vh;
+  position: relative;
+}
+.textWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+ul {
+	list-style: none;
+	margin-top: 30px;
+	line-height: 30px;
+}
+.textL {
+	margin-top: 4em;
+}
+/*------ .textR img {
+	position: relative;
+	margin-top: 5em;
+	border-radius: 100px;
+} ---------*/
+
+
+.items a { 
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+	display: inline-block;
+  vertical-align: middle;
+  flex:1;
+  margin-right: 120px;
+  font-size: 20px;
+  color :#d42732;
+  }
+.items a:hover
+{
+	background: #fff;
+	padding:10px;
+}
+.nounderlin a {
+	text-decoration: none;
+}
+.imglang {
+	float: right;
+}
+
+.icons {
+  text-align: right;
+  margin-right: 400px;
+  }
+.icons a, .contact a, .contact img {
+  display: inline-block;
+  vertical-align: middle;
+  }
+.icons a {
+  margin-left: 40px;
+  height: 30px;
+  }
+.contact a{
+  color: #027BFF;
+  text-decoration: none;
+  size: 20px;
+  }
+.contact img {
+  margin-left: 400px;
+  margin-right: 10px;
+  height: 30px;
+  }
+.icons img {
+  height: 30px;
+}
+.contact, .icons {
+  flex: 1;
+  bottom: 0;
+  }
+.main-footer {
+	padding-left: .5em ;
+	padding-right: .5em;
+	background-color: #d42732;
+	background-size: cover;
+	align-content : flex-end;
+}
